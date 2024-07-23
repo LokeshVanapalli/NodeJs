@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashion Store</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+</head>
+<body>
+    <header class="bg-primary text-white text-center py-4">
+        <h1>Fashion Store</h1>
+    </header>
+    <section class="filters container my-4" style="margin-left: 90px; margin-right: 90px;">
+        <div class="row">
+            <div class="col-md-3" style="max-width: 18%;">
+                <select id="company-filter" class="form-control">
+                    <option value="">All Companies</option>
+                    <option value="ikea">Ikea</option>
+                    <option value="liddy">Liddy</option>
+                    <option value="caressa">Caressa</option>
+                    <option value="marcos">Marcos</option>
+                </select>
+            </div>
+            <div class="col-md-3" style="max-width: 18%;">
+                <select id="rating-filter" class="form-control">
+                    <option value="">All Ratings</option>
+                    <option value="1">Above 1</option>
+                    <option value="2">Above 2</option>
+                    <option value="3">Above 3</option>
+                    <option value="4">Above 4</option>
+                </select>
+            </div>
+            <div class="col-md-3" style="max-width: 18%;">
+                <input type="text" id="search-bar" class="form-control" placeholder="Search by name" >
+            </div>
+            <div class="col-md-2">
+                <input type="range" id="price-filter" min="20" max="1000" value="1000" class="form-control">
+                <span id="price-value">Max Price $1000</span>
+            </div>
+            <div class="col-md-1">
+                <select id="sort-options" class="form-control" style=" width: 165px;">
+                    <option value="name-asc">Name (A-Z)</option>
+                    <option value="name-desc">Name (Z-A)</option>
+                    <option value="price-asc">Price (Low-High)</option>
+                    <option value="price-desc">Price (High-Low)</option>
+                </select>
+            </div>
+        </div>
+    </section>
+    <section class="products-grid container" style="margin-right: 30px; margin-left: 30px; max-width: 1450px;">
+        <!-- Products will be dynamically added here -->
+    </section>
+    <nav aria-label="Page navigation" class="pagination-nav">
+        <ul class="pagination justify-content-center" style="margin-top: 1rem;">
+            <li class="page-item">
+                <a class="page-link" href="#" id="prev-page" aria-label="Previous">
+                    <span aria-hidden="true">&laquo;</span>
+                </a>
+            </li>
+            <!-- Page numbers will be dynamically added here -->
+            <li class="page-item">
+                <a class="page-link" href="#" id="next-page" aria-label="Next">
+                    <span aria-hidden="true">&raquo;</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

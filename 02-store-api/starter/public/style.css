@@ -1,0 +1,81 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styles */
+header {
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 20px 0;
+}
+
+/* Filters Section */
+.filters select,
+.filters input[type="text"],
+.filters input[type="range"] {
+    margin-bottom: 15px;
+}
+
+/* Products Grid */
+.products-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.product {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.product h2 {
+    font-size: 1.25rem;
+    margin: 15px;
+}
+
+.product p {
+    margin: 0 15px 15px;
+    color: #6c757d;
+}
+
+.product:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Buttons and Links */
+button,
+a {
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+button:hover,
+a:hover {
+    background-color: #0056b3;
+    color: #ffffff;
+}
+
+/* Responsive Design */
+@media (max-width: 767px) {
+    .products-grid {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .product {
+        width: 100%;
+    }
+}

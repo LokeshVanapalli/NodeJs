@@ -1,0 +1,153 @@
+[
+  {
+    "name": "accent chair",
+    "price": 25,
+    "company": "marcos",
+    "rating": 4,
+    "image": "https://res.cloudinary.com/lokesh1452739/image/upload/v1721741130/02-store-api/fr1lqhokxwumz3vikxlv.jpg"
+  },
+  {
+    "name": "albany sectional",
+    "price": 109,
+    "company": "liddy",
+    "rating": 5,
+    "image": "https://res.cloudinary.com/lokesh1452739/image/upload/v1721742800/02-store-api/wxlbgeylugqhbilwhndb.avif"
+  },
+  {
+    "name": "albany table",
+    "price": 309,
+    "company": "liddy",
+    "rating": 4.9,
+    "image": "https://res.cloudinary.com/lokesh1452739/image/upload/v1721742801/02-store-api/kowoh4awpph01d6sv2qm.webp"
+  },
+  {
+    "name": "armchair",
+    "price": 125,
+    "company": "marcos",
+    "rating": 4.8,
+    "image": "https://res.cloudinary.com/lokesh1452739/image/upload/v1721742803/02-store-api/kzdrosmbvkp9x73vnkbm.jpg"
+  },
+  {
+    "name": "bar stool",
+    "price": 40,
+    "company": "liddy",
+    "rating": 4.6,
+    "image": "https://res.cloudinary.com/lokesh1452739/image/upload/v1721741129/02-store-api/kmlozfib6vwonwcvpwfz.jpg"
+  },
+  {
+    "name": "dining table",
+    "price": 42,
+    "company": "ikea",
+    "rating": 4.55,
+    "image": "https://res.cloudinary.com/lokesh1452739/image/upload/v1721742802/02-store-api/o7tuy3zifs8tvdtweblu.jpg"
+  },
+  {
+    "name": "emperor bed",
+    "price": 23,
+    "company": "ikea",
+    "image": "https://res.cloudinary.com/lokesh1452739/image/upload/v1721741129/02-store-api/tsfyrqlhi1nwnnolr2gr.jpg"
+  },
+  {
+    "name": "entertainment center",
+    "price": 59,
+    "featured": true,
+    "company": "caressa",
+    "image": "https://res.cloudinary.com/lokesh1452739/image/upload/v1721741125/02-store-api/isslpshuw0gxxz5qr1m9.jpg"
+  },
+  {
+    "name": "high-back bench",
+    "price": 39,
+    "featured": true,
+    "company": "ikea",
+    "image": "https://res.cloudinary.com/lokesh1452739/image/upload/v1721741130/02-store-api/twx08m6agfgjwszeraci.jpg"
+  },
+  {
+    "name": "leather sofa",
+    "price": 99,
+    "company": "caressa",
+    "image": "https://res.cloudinary.com/lokesh1452739/image/upload/v1721741131/02-store-api/cklx3aeewkmo1pnmrazq.jpg"
+  },
+  {
+    "name": "modern bookshelf",
+    "price": 31,
+    "featured": true,
+    "company": "caressa",
+    "image": "https://res.cloudinary.com/lokesh1452739/image/upload/v1721741130/02-store-api/ls3evnlequ1jeos6tdlj.jpg"
+  },
+  {
+    "name": "modern poster",
+    "price": 30,
+    "company": "liddy",
+    "image": "https://res.cloudinary.com/lokesh1452739/image/upload/v1721741124/02-store-api/m8zu2xlojplxwhqffj2x.jpg"
+  },
+  {
+    "name": "shelf",
+    "price": 30,
+    "company": "ikea",
+    "image": "https://res.cloudinary.com/lokesh1452739/image/upload/v1721741126/02-store-api/ivrekpwragbbbd9l3lv9.jpg"
+  },
+  {
+    "name": "simple chair",
+    "price": 109,
+    "company": "liddy",
+    "image": "https://res.cloudinary.com/lokesh1452739/image/upload/v1721741125/02-store-api/hwyl0eiww6f4ectwpui0.jpg"
+  },
+  {
+    "name": "sofa set",
+    "price": 129,
+    "company": "marcos",
+    "image": "https://res.cloudinary.com/lokesh1452739/image/upload/v1721741127/02-store-api/m3tfyeljjecijnby17qt.jpg"
+  },
+  {
+    "name": "suede armchair",
+    "price": 15,
+    "company": "caressa",
+    "image": "https://res.cloudinary.com/lokesh1452739/image/upload/v1721741129/02-store-api/hleot8iyljqoev2pfrtj.jpg"
+  },
+  {
+    "name": "utopia sofa",
+    "price": 79,
+    "featured": true,
+    "company": "liddy",
+    "image": "https://res.cloudinary.com/lokesh1452739/image/upload/v1721741126/02-store-api/sqk53rtggzkavvewkenl.jpg"
+  },
+  {
+    "name": "vase table",
+    "price": 120,
+    "featured": true,
+    "company": "marcos",
+    "image": "https://res.cloudinary.com/lokesh1452739/image/upload/v1721741128/02-store-api/cre1gqjsradhg9ht7kmi.jpg"
+  },
+  {
+    "name": "wooden bed",
+    "price": 25,
+    "company": "ikea",
+    "image": "https://res.cloudinary.com/lokesh1452739/image/upload/v1721741129/02-store-api/pjtw8bdo5idglhiywm63.jpg"
+  },
+  {
+    "name": "wooden desk",
+    "price": 15,
+    "company": "ikea",
+    "image": "https://res.cloudinary.com/lokesh1452739/image/upload/v1721741124/02-store-api/z9fd7lms5qhnnd0sa69o.jpg"
+  },
+  {
+    "name": "wooden desk",
+    "price": 40,
+    "company": "ikea",
+    "image": "https://res.cloudinary.com/lokesh1452739/image/upload/v1721741122/02-store-api/myertkevwzcnddzp5ehw.jpg"
+  },
+  {
+    "name": "wooden table",
+    "price": 23,
+    "featured": true,
+    "company": "caressa",
+    "image": "https://res.cloudinary.com/lokesh1452739/image/upload/v1721741124/02-store-api/a3s65cvtvbzbmzznofga.jpg"
+  },
+  {
+    "name": "a first wooden table",
+    "price": 23,
+    "featured": true,
+    "company": "caressa",
+    "image": "https://res.cloudinary.com/lokesh1452739/image/upload/v1721741124/02-store-api/a3s65cvtvbzbmzznofga.jpg"
+  }
+]
